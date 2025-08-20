@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Fresh Oranges",
     "image": "https://www.allrecipes.com/thmb/y_uvjwXWAuD6T0RxaS19jFvZyFU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1205638014-2000-d0fbf9170f2d43eeb046f56eec65319c.jpg",
-    "weight": "1 KG",
+    "weight": "1",
     "price": 10,
     "stock": 25,
     "description": "Juicy and sweet oranges from local farms."
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Premium Apples",
     "image": "https://1st-choice-fruit-veg.myshopify.com/cdn/shop/products/Fresh-Royal-Gala-Apples-from-france_267873c2-d117-42b3-babf-c740ab2ddcb7.jpg?v=1506746289",
-    "weight": "1 KG",
+    "weight": "1",
     "price": 20,
     "stock": 15,
     "description": "Crisp red apples, perfect for snacks."
@@ -21,27 +21,9 @@
     "id": 3,
     "name": "Golden Bananas",
     "image": "https://5.imimg.com/data5/ANDROID/Default/2020/9/WS/OV/ET/90724054/image-search-1599351009710-jpg-500x500.jpg",
-    "weight": "1 KG",
+    "weight": "1",
     "price": 30,
     "stock": 30,
     "description": "Sweet bananas with natural flavor."
-  },
-  {
-    "id": 4,
-    "name": "Fresh Grapes",
-    "image": "https://www.marthastewart.com/thmb/GnxbwIUvZxp5fj5nkTCVuWKja-M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ms-grapes-grapes-glossary-63ce740368614ea6a4c47a35720ad12b.jpg",
-    "weight": "1 KG",
-    "price": 40,
-    "stock": 20,
-    "description": "Seedless grapes, perfect for snacking."
-  },
-  {
-    "id": 5,
-    "name": "Organic Strawberries",
-    "image": "https://modernfarmer.com/wp-content/uploads/2018/07/how-to-grow-strawberries.jpg",
-    "weight": "1 KG",
-    "price": 50,
-    "stock": 10,
-    "description": "Fresh strawberries, perfect for desserts."
   }
 ]

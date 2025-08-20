@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+import translations from "./data/translations";
+
 import AppNavbar from "./components/Navbar";
 import About from "./components/About";
 import Products from "./components/Products";
@@ -10,6 +12,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [language, setLanguage] = useState("am");
+  const t = translations[language];
+
   const [basketItems, setBasketItems] = useState([]);
 
   const addToBasket = (product) => {
@@ -38,21 +43,17 @@ function App() {
 
   return (
     <>
-      <AppNavbar basketCount={basketItems.length} />
+      <AppNavbar
+        basketCount={basketItems.length}
+        language={language}
+        setLanguage={setLanguage}
+        t={t.navbar}
+      />
 
-      {/* About Section */}
-      <About />
-
-      {/* Products Section */}
-      <Products addToBasket={addToBasket} />
-
-      {/* Basket Section */}
-      <Basket basketItems={basketItems} removeFromBasket={removeFromBasket} />
-
-      {/* Contact Section */}
-      <Contact />
-
-      {/* Footer */}
+      <About t={t.about} />
+      <Products addToBasket={addToBasket} tProducts={t.products} tLabels={t.labels} language={language} />
+      <Basket basketItems={basketItems} removeFromBasket={removeFromBasket} products={t.products} t={t.basket} tLabels={t.labels}/>
+      <Contact t={t.contact} />
       <Footer />
     </>
   );

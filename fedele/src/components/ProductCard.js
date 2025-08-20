@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-function ProductCard({ product, addToBasket }) {
+function ProductCard({ product, addToBasket, tLabels }) {
   return (
     <Card className="shadow-sm h-100">
       <Card.Img
@@ -13,18 +13,22 @@ function ProductCard({ product, addToBasket }) {
       <Card.Body>
         <Card.Title className="text-orange">{product.name}</Card.Title>
         <Card.Text>
-          <strong>Weight:</strong> {product.weight} <br />
-          <strong>Price:</strong> ${product.price} <br />
-          <strong>In stock:</strong> {product.stock} <br />
+          <strong>{tLabels.weight}:</strong> {product.weight} <br />
+          <strong>{tLabels.price}:</strong> ${product.price} <br />
+          <strong>{tLabels.stock}:</strong> {product.stock} <br />
           <small className="text-muted">{product.description}</small>
         </Card.Text>
-        <Button
-          variant="warning"
-          className="text-white"
-          onClick={() => addToBasket(product)}
-        >
-          Add to Basket
-        </Button>
+
+        {/* Center button */}
+        <div className="d-flex justify-content-center">
+          <Button
+            variant="warning"
+            className="text-white w-100 w-sm-auto"
+            onClick={() => addToBasket(product)}
+          >
+            {tLabels.addToBasket}
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );
