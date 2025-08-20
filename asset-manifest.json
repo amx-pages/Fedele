@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fedele/static/css/main.aca09a1f.css",
-    "main.js": "/fedele/static/js/main.e50dda8a.js",
+    "main.js": "/fedele/static/js/main.142512d2.js",
     "static/js/453.c6f8cd92.chunk.js": "/fedele/static/js/453.c6f8cd92.chunk.js",
     "index.html": "/fedele/index.html",
     "main.aca09a1f.css.map": "/fedele/static/css/main.aca09a1f.css.map",
-    "main.e50dda8a.js.map": "/fedele/static/js/main.e50dda8a.js.map",
+    "main.142512d2.js.map": "/fedele/static/js/main.142512d2.js.map",
     "453.c6f8cd92.chunk.js.map": "/fedele/static/js/453.c6f8cd92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aca09a1f.css",
-    "static/js/main.e50dda8a.js"
+    "static/js/main.142512d2.js"
   ]
 }
