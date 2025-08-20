@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Orange Juice",
+    "image": "https://via.placeholder.com/300x200?text=Orange+Juice",
+    "weight": "1L",
+    "price": 10,
+    "counter": 25,
+    "description": "Fresh squeezed orange juice."
+  },
+  {
+    "name": "Apple Jam",
+    "image": "https://via.placeholder.com/300x200?text=Apple+Jam",
+    "weight": "500g",
+    "price": 20,
+    "counter": 40,
+    "description": "Delicious homemade apple jam."
+  },
+  {
+    "name": "Honey",
+    "image": "https://via.placeholder.com/300x200?text=Honey",
+    "weight": "250g",
+    "price": 30,
+    "counter": 15,
+    "description": "Natural Armenian honey."
+  }
+]
