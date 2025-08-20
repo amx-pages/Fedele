@@ -3,7 +3,15 @@
 }
 
 .text-orange {
-  color: #ff6600;
+  color: #ff6600 !important;
+}
+
+.bg-orange {
+  background-color: #ff6600 !important;
+}
+
+body, main {
+  padding-top: 70px; /* adjust if navbar is taller */
 }
 
 .App-logo {
